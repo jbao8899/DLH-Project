@@ -25,7 +25,7 @@ It requires NOTEEVENTS.csv (which can be obtained from the MIMIC-III dataset
 on PhysioNet, after completing a training course and signing a usage agreement)
 and annotations.csv (which can be found within the data folder of
 https://github.com/sebastianGehrmann/phenotyping/, which is the GitHub repository
-created by the original authors of this study)).
+created by the original authors of this study).
 More information is present in the notebook itself.
 We included "word_vectors_from_all_discharge_summaries.wordvectors", so you will
 not actually have to run Word2Vec.
