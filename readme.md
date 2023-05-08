@@ -31,7 +31,8 @@ https://github.com/sebastianGehrmann/phenotyping/, which is the GitHub repositor
 created by the original authors of this study).
 More information is present in the notebook itself.
 We included "word_vectors_from_all_discharge_summaries.wordvectors", so you will
-not actually have to run Word2Vec.
+not actually have to run Word2Vec, but you still need to perform various other
+preprocessing tasks done in preprocessing_for_cnn.ipynb.
 We ran preprocessing_for_cnn.ipynb on a Google Colab session with high RAM and no GPU
 acceleration (because gensim does not use the GPU).
 
@@ -55,7 +56,8 @@ acceleration.
 
 Display Notebook.ipynb contains information needed about our replication study as a whole,
 discussion about our results, and many visualizations. It requires the JSONs created by
-notebook_for_cnns.ipynb to run (which we included in the repository).
+notebook_for_cnns.ipynb to run (which we included in the repository). It can be considered
+our submission for the Notebook Bonus.
 
 Presentation.pptx contains the slides used for our presentation.
 
