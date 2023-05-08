@@ -16,7 +16,10 @@ We used Jupyter Notebooks for this, as they are much more convenient to work wit
 than regular .py files. You can run a code block and see what happens,
 then write more code or modify the code block based on the results,
 try running a code block multiple times and printing different things,
-and so on.
+and so on. Also, Jeremy's computer only has 128 MB of GPU RAM, so it would be
+impossibe for him to train our models in a reasonable timeframe locally
+(although each of our models trains quickly, we had 60 models, so using
+GPU acceleration was vital).
 
 preprocessing_for_cnn.ipynb contains code needed to create and save the documents
 to be used in the study as stacks of Word2Vec embedding vectors, as well as the labels
