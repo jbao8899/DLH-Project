@@ -9,8 +9,9 @@ shortcut to the folder in order to run it.
 
 We do not have a requirements.txt, because this code is to be run on Google Colab,
 and I do not think you use that there. The libraries needed should be available there.
-We used the Gensim, Matplotlib, NumPy, os, pandas, PrettyTable, PyTorch, re,
-scikit-learn, sys, and time libraries in our code. 
+We used the Gensim (4.3.1), Matplotlib (3.7.1), NumPy (1.22.4), os, pandas (1.5.3),
+PrettyTable (0.7.2), PyTorch (2.0.0+cu118), re (2.2.1), scikit-learn (1.2.2), sys,
+and time libraries in our code. Our version of Python was 3.10.11.
 
 We used Jupyter Notebooks for this, as they are much more convenient to work with
 than regular .py files. You can run a code block and see what happens,
